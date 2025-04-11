@@ -1,0 +1,58 @@
+![Chef's Kiss interface](.github/banner.png)
+
+# Chef's Kiss
+
+Agentic application for suggesting recipes based on user preferences and dietary restrictions.
+It uses the [Google Agentic Development Kit (ADK)](https://google.github.io/adk-docs/) to create a conversational agents that can interact with users and provide personalized recipe suggestions.
+
+## Install
+
+Make sure you have [`uv` installed](https://docs.astral.sh/uv/getting-started/installation/).
+
+Clone the repository:
+
+```bash
+git clone git@github.com:curiousily/chefskiss.git .
+cd chefskiss
+```
+
+Install Python:
+
+```bash
+uv python install 3.12.10
+```
+
+Create and activate a virtual environment:
+
+```bash
+uv venv
+source .venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+uv sync
+```
+
+## Gemini API Key
+
+The app uses the Gemini API to power the agents (Hopefully, Ollama support will work soon as well). To add your API:
+
+```bash
+mv chefskiss/.env.example chefskiss/.env
+```
+
+Then, open `chefskiss/.env` and add your API key:
+
+```bash
+GOOGLE_API_KEY=your_api_key
+```
+
+## Run the web app
+
+Run the app:
+
+```bash
+adk web
+```

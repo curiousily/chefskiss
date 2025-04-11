@@ -1,0 +1,19 @@
+{
+    "[python]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "charliermarsh.ruff",
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+      }
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+      "notebook.source.fixAll": "explicit",
+      "notebook.source.organizeImports": "explicit",
+  },
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "chat.agent.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true
+}

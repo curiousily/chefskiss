@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Scrambled Eggs with Cheese",
+    "ingredients": [
+      {"name": "eggs", "weight_grams": 120},
+      {"name": "milk", "weight_grams": 30},
+      {"name": "cheese", "weight_grams": 30},
+      {"name": "butter", "weight_grams": 10}
+    ]
+  },
+  {
+    "name": "Oatmeal with Banana and Honey",
+    "ingredients": [
+      {"name": "oats", "weight_grams": 50},
+      {"name": "milk", "weight_grams": 150},
+      {"name": "banana", "weight_grams": 100},
+      {"name": "honey", "weight_grams": 20}
+    ]
+  },
+  {
+    "name": "Yogurt Parfait",
+    "ingredients": [
+      {"name": "yogurt", "weight_grams": 150},
+      {"name": "granola", "weight_grams": 40},
+      {"name": "berries", "weight_grams": 75}
+    ]
+  },
+  {
+    "name": "Chicken Salad Sandwich",
+    "ingredients": [
+      {"name": "chicken", "weight_grams": 100},
+      {"name": "mayonnaise", "weight_grams": 40},
+      {"name": "celery", "weight_grams": 30},
+      {"name": "bread", "weight_grams": 60}
+    ]
+  },
+  {
+    "name": "Simple Tuna Salad",
+    "ingredients": [
+      {"name": "tuna", "weight_grams": 120},
+      {"name": "mayonnaise", "weight_grams": 40},
+      {"name": "onion", "weight_grams": 25},
+      {"name": "crackers", "weight_grams": 40}
+    ]
+  },
+  {
+    "name": "Classic Grilled Cheese",
+    "ingredients": [
+      {"name": "bread", "weight_grams": 60},
+      {"name": "cheese", "weight_grams": 50},
+      {"name": "butter", "weight_grams": 15}
+    ]
+  },
+  {
+    "name": "Pasta with Basic Tomato Sauce",
+    "ingredients": [
+      {"name": "pasta", "weight_grams": 100},
+      {"name": "tomato sauce", "weight_grams": 200},
+      {"name": "onion", "weight_grams": 50},
+      {"name": "garlic", "weight_grams": 10},
+      {"name": "olive oil", "weight_grams": 15}
+    ]
+  },
+  {
+    "name": "Quick Chicken Stir-fry",
+    "ingredients": [
+      {"name": "chicken", "weight_grams": 150},
+      {"name": "broccoli", "weight_grams": 150},
+      {"name": "soy sauce", "weight_grams": 20},
+      {"name": "rice", "weight_grams": 75},
+      {"name": "sesame oil", "weight_grams": 10}
+    ]
+  },
+  {
+    "name": "Simple Lentil Soup",
+    "ingredients": [
+      {"name": "lentils", "weight_grams": 100},
+      {"name": "carrot", "weight_grams": 75},
+      {"name": "celery", "weight_grams": 50},
+      {"name": "onion", "weight_grams": 75},
+      {"name": "vegetable broth", "weight_grams": 500}
+    ]
+  },
+  {
+    "name": "Chicken Quesadilla",
+    "ingredients": [
+      {"name": "tortilla", "weight_grams": 50},
+      {"name": "cheese", "weight_grams": 60},
+      {"name": "chicken", "weight_grams": 100}
+    ]
+  },
+  {
+    "name": "Basic Beef Burger",
+    "ingredients": [
+      {"name": "ground beef", "weight_grams": 150},
+      {"name": "bun", "weight_grams": 70},
+      {"name": "lettuce", "weight_grams": 20},
+      {"name": "tomato", "weight_grams": 50},
+      {"name": "onion", "weight_grams": 20}
+    ]
+  },
+  {
+    "name": "Baked Salmon with Asparagus",
+    "ingredients": [
+      {"name": "salmon fillet", "weight_grams": 150},
+      {"name": "lemon", "weight_grams": 30},
+      {"name": "olive oil", "weight_grams": 15},
+      {"name": "asparagus", "weight_grams": 200}
+    ]
+  },
+  {
+    "name": "Tofu Scramble",
+    "ingredients": [
+      {"name": "tofu", "weight_grams": 150},
+      {"name": "nutritional yeast", "weight_grams": 10},
+      {"name": "turmeric", "weight_grams": 2},
+      {"name": "spinach", "weight_grams": 50},
+      {"name": "onion", "weight_grams": 40}
+    ]
+  },
+  {
+    "name": "Apple Slices with Peanut Butter",
+    "ingredients": [
+      {"name": "apple", "weight_grams": 150},
+      {"name": "peanut butter", "weight_grams": 30}
+    ]
+  },
+  {
+    "name": "Caprese Salad Snack",
+    "ingredients": [
+      {"name": "tomato", "weight_grams": 100},
+      {"name": "mozzarella", "weight_grams": 75},
+      {"name": "basil", "weight_grams": 5},
+      {"name": "olive oil", "weight_grams": 10},
+      {"name": "balsamic glaze", "weight_grams": 10}
+    ]
+  }
+]
