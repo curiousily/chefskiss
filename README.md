@@ -35,6 +35,18 @@ Install dependencies:
 uv sync
 ```
 
+## Run Ollama
+
+Chef's Kiss uses Ollama for LLM inference by default. Watch this video to see how to install Ollama: https://www.youtube.com/watch?v=lmFCVCqOlz8
+
+The default model is Qwen 2.5 7B:
+
+```bash
+ollama pull qwen2.5
+```
+
+Feel free to experiment with other models.
+
 ## Gemini API Key
 
 The app uses the Gemini API to power the agents (Hopefully, Ollama support will work soon as well). To add your API:

@@ -2,17 +2,20 @@ import json
 import os
 from pathlib import Path
 
+import litellm
 from google.adk.agents import Agent
 from google.adk.models.lite_llm import LiteLlm
 
-# os.environ["OLLAMA_CONTEXT_LENGTH"] = "4096"
+litellm._turn_on_debug()
+
+# os.environ["OLLAMA_CONTEXT_LENGTH"] = "4096" # increase context length for Ollama but makes it slower
 os.environ["OLLAMA_KEEP_ALIVE"] = "-1"
 os.environ["OPENAI_API_KEY"] = "unused"
 os.environ["OPENAI_API_BASE"] = "http://localhost:11434/v1"
 
-USE_OLLAMA = False
+USE_OLLAMA = True
 
-OLLAMA_MODEL = "qwen2.5:14b"
+OLLAMA_MODEL = "qwen2.5"
 
 model = LiteLlm(model=f"openai/{OLLAMA_MODEL}") if USE_OLLAMA else "gemini-2.0-flash"
 
