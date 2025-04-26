@@ -49,7 +49,7 @@ Feel free to experiment with other models.
 
 ## Gemini API Key
 
-The app uses the Gemini API to power the agents (Hopefully, Ollama support will work soon as well). To add your API:
+Or you can use the Gemini API. To add your API:
 
 ```bash
 mv chefskiss/.env.example chefskiss/.env
